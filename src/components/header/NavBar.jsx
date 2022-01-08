@@ -1,7 +1,7 @@
-import './Nadvar.css';
+import './NavBar.css';
 
 
-function Nadvar() {
+function NavBar() {
   return (
     <div className="header">
       <div className="header-section container">
@@ -22,4 +22,4 @@ function Nadvar() {
   );
 }
 
-export default Nadvar;
+export default NavBar;
