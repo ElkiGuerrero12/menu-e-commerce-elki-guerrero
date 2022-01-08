@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Nadvar from './components/header/Nadvar';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+    <React.StrictMode>
+    <Nadvar />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
