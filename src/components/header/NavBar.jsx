@@ -1,4 +1,5 @@
 import './NavBar.css';
+import CartWidjet from './CartWidget';
 
 
 function NavBar() {
@@ -14,9 +15,7 @@ function NavBar() {
             <li><a href=""></a>Contacto</li>
             
         </ul>
-        <div>
-          <i className="fa fa-cart-plus cart "></i>          
-        </div>        
+        {CartWidjet()}    
       </div>
     </div>
   );

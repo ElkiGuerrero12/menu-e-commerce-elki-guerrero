@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './components/header/NavBar';
+import ItemListContainer from './components/main/ItemListContainer';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
     <React.StrictMode>
     <NavBar />
+    <ItemListContainer /> 
     <App />
   </React.StrictMode>,
   document.getElementById('root')
