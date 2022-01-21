@@ -1,4 +1,6 @@
 import ItemCount from './ItemCount';
+import ItemList from './ItemList';
+
 
 import './ItemListContainer.css'
 
@@ -10,8 +12,8 @@ function ItemListContainer() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Tempora hic, ullam molestias ut delectus sed! Nemo odit necessitatibus 
                 reiciendis odio quis omnis autem nostrum eveniet ipsa. Consectetur illo sunt eveniet.</p>
-
-               
+                
+                <ItemList />  
                 
         </div>
 

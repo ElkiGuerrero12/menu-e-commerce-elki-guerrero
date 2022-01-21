@@ -8,9 +8,7 @@ import ItemListContainer from './components/main/ItemListContainer';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
-    <React.StrictMode>
-    <NavBar />
-    <ItemListContainer /> 
+    <React.StrictMode>    
     <App />
   </React.StrictMode>,
   document.getElementById('root')
